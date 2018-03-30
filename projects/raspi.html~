@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<title>
+A page wherein one grates some Herbs
+
+</title>
+</head>
+<style>
+
+@font-face {
+	font-family: Fifteen;
+	src: url('SFPixelate.ttf');
+}
+
+@font-face {
+	font-family: Fifteen;
+	font-weight: normal;
+	src: url('SFPixelate.ttf');
+}
+
+a:link {
+ color: #43DE57;
+}
+
+body {
+			background-color:black;
+			color: darkgreen;
+			image: center;
+			text-align:center;
+			/*font:"Franklin Gothic Demi";*/
+			font-family: Fifteen, sans-serif;
+			font-size:18px;	
+			}
+			
+
+</style>
+<body>
+
+<h2> Raspberry Pi </h2>
+
+<img src="raspi.jpg" width="300" </a></br></br>
+This website is now being hosted from a <a href="http://raspberrypi.org"> Raspberry Pi</a> in my apartment.  The Raspberry Pi is a versatile, low-power hobby computer that runs a custom Debian Linux OS and can perform a variety of tasks.  I've also used mine as a webcam machine and as a device for remotely turning other computers on.
+
+</br></br></br></br>
+<a href="../projects.html"> Return to Projects</a>
+</br></br>
+<a href="../index.html"> Return to Main Page</a>
+
+</body>
+
