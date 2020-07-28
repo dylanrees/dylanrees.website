@@ -1,12 +1,16 @@
 <html>
 <head>
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
 Dylan Rees
 
 </title>
 <style>
+
+* {
+  box-sizing: border-box;
+}
 
 @font-face {
 	font-family: Fifteen;
@@ -19,6 +23,19 @@ Dylan Rees
 	src: url('SFPixelate.ttf');
 }
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 body {
 			background-color:#141414;
@@ -41,14 +58,36 @@ a:link {
 </br>
 </br>
 
-<img src="biopic.png" width="400" </a></br> </br></br>
-Dylan Rees holds a PhD in Electrical Engineering from <a href ="http://www.rpi.edu">Rensselaer Polytechnic Institute</a> in Troy, NY, </br>
-where he currently works as a postdoctoral fellow with the <a href ="https://www.rpi.edu/dept/DFWI/">Darrin Fresh Water Institute</a>.</br>
-His current research employs <a href ="http://www.oalib.com/paper/pdf/3152267">electromicrobiology</a> and <a href="https://microbewiki.kenyon.edu/index.php/Dissimilatory_metal_reduction">dissimilatory metal-reducing bacteria</a></br>
+<div class="row">
+  <div class="column">
+    <p>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+Dylan Rees holds a PhD in Electrical Engineering from <a href ="http://www.rpi.edu">Rensselaer Polytechnic Institute</a> in Troy, NY,
+where he currently works as a postdoctoral fellow with the <a href ="https://www.rpi.edu/dept/DFWI/">Darrin Fresh Water Institute</a>.
+His current research employs <a href ="http://www.oalib.com/paper/pdf/3152267">electromicrobiology</a> and <a href="https://microbewiki.kenyon.edu/index.php/Dissimilatory_metal_reduction">dissimilatory metal-reducing bacteria</a>
 as tools for the creation of sustainable electronic materials and biological sensors. </br></br>
-He is also interested in sustainability, design, socially-situated engineering, urban agriculture, </br>
-and the application of social science and humanities research to the practice of science and engineering.
-</br> </br> </br>
+He is also interested in sustainability, design, socially-situated engineering, urban agriculture,
+and the application of social science and humanities research to the practice of science and engineering.</p>
+  </div>
+  <div class="column">
+    <p><img src="biopic.png" width="400" </a></p>
+  </div>
+</div>
+
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
 
 cv<a href ="Rees_CV.pdf"><img src="resume.png" width="80"></a>
   academia.edu<a href ="https://rpi.academia.edu/DylanRees"><img src="academic.png" width="80"></a>
